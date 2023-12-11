@@ -1,0 +1,99 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  overflow-y: scroll;
+  width: 900px;
+}
+
+@media screen and (max-width: 900px){
+  *{margin: 0; padding: 0;}
+  body{width: 100%; padding-left: 10px; padding-right: 10px;}
+}
+
+.topbar {
+  background-image: url("./resources/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: white;
+  height: 200px;
+  border-radius: 0 0 20px 20px;
+}
+
+.topbar > a {
+  display: inline;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+
+.topbar > h5 {
+  display: inline;
+  color: white;
+  position: relative;
+  top: 90px;
+  left: -303px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.post > td > a {
+  color: black;
+}
+
+.post > td > a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+}
+
+#schema {
+  text-align: center;
+  height: 60px;
+}
+
+.post {
+  height: 55px;
+}
+
+.col1 {
+  text-align: center;
+  width: 100px;
+}
+
+.col2 {
+  text-align: center;
+  width: 600px;
+}
+
+.post > .col2 {
+  text-align: left;
+}
+
+.col3 {
+  text-align: center;
+  width: 100px;
+}
+
+.col4 {
+  text-align: center;
+  width: 100px;
+}
